@@ -1,0 +1,13 @@
+-var links = ["Inicio", "Acerca de", "Productos", "Contacto"]
+
+header.header
+    .header__logo
+        img(src="https://cdn.freebiesupply.com/logos/large/2x/twitter-3-logo-png-transparent.png", alt="Logo del sitio web")
+        h1 Nombre del sitio
+    nav.header__navbar
+        ul
+            each link in links
+                li
+                    a(href="#") #{link}
+
+    
